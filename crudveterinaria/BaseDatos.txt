@@ -1,0 +1,19 @@
+create database VeterinariaApis
+go
+
+use VeterinariaApis
+
+go
+
+
+
+
+proyecto: 
+
+server.port = 8082
+
+spring.datasource.url= jdbc:sqlserver://DESKTOP-QSHGEPG;encrypt=true;trustServerCertificate=true;databaseName=VeterinariaApis
+spring.datasource.username= root
+spring.datasource.password= root
+spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.SQLServerDialect
+spring.jpa.hibernate.ddl-auto= update
