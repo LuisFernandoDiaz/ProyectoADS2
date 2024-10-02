@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background: hsl(187, 100%, 66%, 70%);
+}
+
+.headerr {
+    min-height: 10vh;
+}
+
+.containerGa {
+    border: solid 3px rgb(255, 255, 255, 0.25);
+}
+
+.container {
+    font-family: Garamond;
+
+}
+
+table {
+
+    color: #302b2b;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.encabezado {
+    background: rgb(255, 255, 255, 0.2);
+    font-weight: normal;
+}
+
+thead {
+    background: rgb(84, 185, 244, 0.4);
+}
+
+th {
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+td {
+    padding: 15px;
+    border-bottom: solid 1px rgb(255, 255, 255, 0.25);
+}
+
+tbody tr {
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background: rgb(69, 169, 227, 0.4);
+}

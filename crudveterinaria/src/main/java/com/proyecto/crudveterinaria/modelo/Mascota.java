@@ -19,7 +19,7 @@ public class Mascota {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int id ;
-    public int dni;
+    public String nomDueño;
     public String nomMascota;
     public String edad;
     public double peso;

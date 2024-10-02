@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabla de datos</title>
+    <link rel="stylesheet" href="js/tabla.css">
+
+    <link rel="stylesheet" href="js/index.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <table id="tablaa">
+            <thead>
+                <tr class="encabezado">
+                    <th colspan="7">Habilidades Profecionales</th>
+                </tr>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Lenguaje 1</th>
+                    <th>Lenguaje 2</th>
+                    <th>Lenguaje 3</th>
+                    <th>Base Datos</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+
+    <main id="formulario">
+        <section>
+            <h1>Modificando sus habilidades profecionales</h1>
+            <br><br>
+            <form method="POST">
+
+                <div class="casillero">
+                    <input type="text" name="nombre" id="nombre" class="cuadro-form-input" required="required">
+                    <label for="nombre" class="cuadro-form-lavel">Nombre</label>
+                </div>
+                <div class="casillero">
+                    <input type="text" name="lengPro1" id="lengPro1" class="cuadro-form-input" required="required">
+                    <label for="lengPro1" class="cuadro-form-lavel">Lenguaje 1</label>
+                </div>
+                <div class="casillero">
+                    <input type="text" name="lengPro2" id="lengPro2" class="cuadro-form-input" required="required">
+                    <label for="lengPro2" class="cuadro-form-lavel">Lenguaje 2</label>
+                </div>
+                <div class="casillero">
+                    <input type="text" name="lengPro3" id="lengPro3" class="cuadro-form-input" required="required">
+                    <label for="lengPro3" class="cuadro-form-lavel">Lenguaje 3</label>
+                </div>
+                <div class="casillero">
+                    <input type="text" name="baseDato" id="baseDato" class="cuadro-form-input" required="required">
+                    <label for="baseDato" class="cuadro-form-lavel">data base</label>
+                </div>
+
+                <br>
+                <button id="btnModificar" class="btnRegistrar">
+                    Registrar
+                </button>
+            </form>
+        </section>
+    </main>
+
+
+
+    <script src="js/tabla.js"></script>
+</body>
+
+</html>

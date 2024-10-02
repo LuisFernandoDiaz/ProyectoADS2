@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: hsl(187, 100%, 66%, 70%);
+    flex-direction: column;
+
+}
+
+h1 {
+    color: #00dfc4;
+}
+
+.form-control {
+    max-width: 30vh;
+}
+
+.btn {
+    background: hsl(212, 77%, 51%, 80%);
+    border: hsl(212, 77%, 51%, 80%);
+}

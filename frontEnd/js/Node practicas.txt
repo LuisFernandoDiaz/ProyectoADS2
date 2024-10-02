@@ -1,0 +1,18 @@
+primero creamos el back end, con las apis listas
+
+creamos un frond end con el html, css, js ...
+
+haceguramos de tener instalado nodel, abrimos con click derecho "git bach" 
+
+insertamos estos codigos
+ 
+
+node --version  -->(para saber la version de node)
+
+npm init ---> para iniciar node
+
+npm i express ---> para  instalar el expres funcione y poder hacer 
+			conexion en los archivos js
+
+
+creamos un server.js
