@@ -5,7 +5,7 @@ window.onload = function () {
 
 
 let listarAtencion = async () => {
-    const peticion = await fetch("http://localhost:8080/mascota/listadoMascot",
+    const peticion = await fetch("http://localhost:8086/mascota/listadoMascot",
         {
             method: "GET",
             headers: {

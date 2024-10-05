@@ -1,6 +1,6 @@
 package com.proyecto.crudveterinaria.apis;
 
-import com.proyecto.crudveterinaria.modelo.Cliente;
+import com.proyecto.crudveterinaria.modelo.Contactanos;
 import com.proyecto.crudveterinaria.modelo.Mascota;
 import com.proyecto.crudveterinaria.servicios.IMascotaServicios;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,5 +1,6 @@
 package com.proyecto.crudveterinaria.servicios.impl;
 
+import com.proyecto.crudveterinaria.modelo.Contactanos;
 import com.proyecto.crudveterinaria.modelo.Mascota;
 import com.proyecto.crudveterinaria.repository.IMascotaRepository;
 import com.proyecto.crudveterinaria.servicios.IMascotaServicios;
@@ -30,8 +31,8 @@ public class MascotaServicios implements IMascotaServicios {
 
     @Override
     public Mascota CrearMascota(Mascota entity) {
-        Mascota mascotaCreada = _mascotaRepository.save(entity);
-        return mascotaCreada;
+        Mascota contactanosCreada = _mascotaRepository.save(entity);
+        return contactanosCreada;
     }
 
     @Override
