@@ -18,7 +18,12 @@ public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int id ;
-    public String nomDueño;
-    public int dni;
-    public String nomMascota;
+    public String nombre;
+    public String apellido;
+    public String dni;
+    public String numero;
+    public String correo;
+    public String direccion;
+    public String username;
+    public String password;
 }
