@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     var servicios = [
         "Corte de pelo",
         "Odontologia canina",
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Llenar el combo-box con los servicios
     var servicioSelect = document.getElementById("servicio");
-    servicios.forEach(function(servicio) {
+    servicios.forEach(function (servicio) {
         var option = document.createElement("option");
         option.value = servicio;
         option.textContent = servicio;
@@ -29,12 +29,12 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Manejar el botón de regresar
-    document.getElementById("regresarBtn").addEventListener("click", function() {
+    document.getElementById("regresarBtn").addEventListener("click", function () {
         window.location.href = "pgServicio.html";
     });
 
     // Manejar el formulario de guardar
-    document.getElementById("citaForm").addEventListener("submit", function(event) {
+    document.getElementById("citaForm").addEventListener("submit", function (event) {
         event.preventDefault();
         alert("¡Cita guardada exitosamente!");
     });

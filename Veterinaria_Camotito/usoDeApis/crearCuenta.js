@@ -3,6 +3,7 @@ let booton = document.getElementById("btn");
 
 booton.addEventListener("click", evento => {
     registrarCliente();
+    redireccion();
 })
 
 
@@ -33,4 +34,8 @@ let registrarCliente = async () => {
 
         });
 
+}
+
+function redireccion() {
+    location.href = "index.html"
 }

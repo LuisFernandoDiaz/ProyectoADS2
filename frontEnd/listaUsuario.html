@@ -15,8 +15,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="css/regsitroMascota.css">
-    <link rel="stylesheet" href="css/atencion.css">
+    <link rel="stylesheet" href="css/listaServicios.css">
 </head>
 
 <body>
@@ -24,7 +23,7 @@
     <header class="headerr">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Chapulin</a>
+                <a class="navbar-brand" href="#">Veterinaria Camotito</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -35,13 +34,10 @@
                             <a class="nav-link active" aria-current="page" href="#">INICIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="registroMascota.html">REGISTRO</a>
+                            <a class="nav-link" href="listaUsuario.html">USUARIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="interesados.html">INTERESADOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">SERVICIOS</a>
+                            <a class="nav-link" href="listaServicios.html">SERVICIOS</a>
                         </li>
                     </ul>
                 </div>
@@ -53,14 +49,18 @@
         <table id="tablaa" class="containerGa">
             <thead>
                 <tr class="encabezado">
-                    <th colspan="6">Mascotas registradas</th>
+                    <th colspan="10">Mascotas registradas</th>
                 </tr>
                 <tr>
                     <th>Id</th>
                     <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Dni</th>
+                    <th>Number</th>
                     <th>Gmail</th>
-                    <th>Numero</th>
-                    <th>Mensaje</th>
+                    <th>Direccion</th>
+                    <th>Usurname</th>
+                    <th>Password</th>
                     <th>Acciones</th>
                 </tr>
             </thead>
@@ -71,7 +71,7 @@
         </table>
     </div>
 
-    <script src="js/listaContactos.js"></script>
+    <script src="js/listaUsuario.js"></script>
 
 
 </body>

@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Cita</title>
     <link rel="stylesheet" href="Estilo.css/formulario.css">
 </head>
+
 <body>
     <div id="formulario-container">
         <form id="citaForm">
+            <label for="nomMascota">Nombre de su Mascota:</label>
+            <input type="text" id="nomMascota" required>
+
             <label for="servicio">Tipo de Servicio:</label>
-            <select id="servicio"></select>
+            <select id="servicio">
+                <option>Corte de pelo</option>
+                <option>Odontologia canina</option>
+                <option>Vacunaciones</option>
+                <option>Paseos</option>
+                <option>Guarderia</option>
+                <option selected>Baños</option>
+                <option>Castraciones</option>
+                <option>Operaciones</option>
+                <option>Ecografias</option>
+                <option>Transporte</option>
+
+            </select>
 
             <label for="fecha">Fecha:</label>
             <input type="date" id="fecha" required>
@@ -24,6 +41,9 @@
             </div>
         </form>
     </div>
-    <script src="Java.js/formulario.js"></script>
+    <script src="usoDeApis/servicios.js"></script>
+
+    <!--    <script src="Java.js/formulario.js"></script>-->
 </body>
+
 </html>

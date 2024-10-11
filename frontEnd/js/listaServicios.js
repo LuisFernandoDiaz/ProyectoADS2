@@ -5,7 +5,7 @@ window.onload = function () {
 
 
 let listarAtencion = async () => {
-    const peticion = await fetch("http://localhost:8086/contactanos/listadoContact",
+    const peticion = await fetch("http://localhost:8086/servicio/listadoServis",
         {
             method: "GET",
             headers: {
@@ -21,10 +21,10 @@ let listarAtencion = async () => {
     for (let hability of listado) {
         let contenidoFila = `<tr>
         <td>${hability.id}</td>
-        <td>${hability.nombre}</td>
-        <td>${hability.gmail}</td>
-        <td>${hability.numTelefono}</td>
-        <td>${hability.mensaje}</td>
+        <td>${hability.nomMascota}</td>
+        <td>${hability.servicio}</td>
+        <td>${hability.fecha}</td>
+        <td>${hability.hora}</td>
         <td>
             <button onClick="BorrarFilas(${hability.id})" type="button" class="btn btn-dark">Dark</button>
         </td>
@@ -42,7 +42,7 @@ let listarAtencion = async () => {
 
 
 let BorrarFilas = async (id) => {
-    const peticion = await fetch("http://localhost:8086/contactanos/eliminarContact/" + id,
+    const peticion = await fetch("http://localhost:8086/servicio/eliminarServis/" + id,
         {
             method: "DELETE",
             headers: {
