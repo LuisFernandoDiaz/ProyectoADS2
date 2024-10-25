@@ -6,8 +6,8 @@
 }
 
 body {
-
-    background: hsl(187, 100%, 66%, 70%);
+    background-image: url(../img/background-2.jpg);
+    flex: auto;
 }
 
 .headerr {

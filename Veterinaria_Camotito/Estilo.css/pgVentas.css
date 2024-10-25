@@ -1,18 +1,19 @@
-
-body{
+body {
     background-image: url(../Imagenes/background-2.jpg);
 }
-.ventas{
+
+.ventas {
     display: flex;
     width: 70%;
     margin: 20px auto;
     justify-content: space-between;
 }
 
-.ventas .productos-menu{
+.ventas .productos-menu {
     display: flex;
 }
-.ventas .menu-ventas{
+
+.ventas .menu-ventas {
     display: block;
     width: fit-content;
     border: 2px solid #000000;
@@ -22,59 +23,66 @@ body{
 }
 
 
-.menu-ventas .elementos{
-    margin: 8px ;
+.menu-ventas .elementos {
+    margin: 8px;
     width: 80px;
 }
-.menu-ventas .elementos .item-elemento{
+
+.menu-ventas .elementos .item-elemento {
     list-style: none;
 }
 
-.menu-ventas .elementos button{
+.menu-ventas .elementos button {
     background: none;
     border: 0;
     cursor: pointer;
 }
-.menu-ventas .elementos button:hover{
+
+.menu-ventas .elementos button:hover {
     color: skyblue;
 }
 
-.menu-ventas .item-elemento:not(:first-child){
+.menu-ventas .item-elemento:not(:first-child) {
     margin: 4px auto;
 }
-.menu-ventas .elementos a:hover{
+
+.menu-ventas .elementos a:hover {
     color: blueviolet;
 }
 
-.menu-lista{
+.menu-lista {
     width: auto;
     margin: 0 10px;
 }
-.menu-lista .contenedor-venta{
+
+.menu-lista .contenedor-venta {
     border: 2px solid #000000;
     border-radius: 10px;
     background-color: #fff;
     width: 650px;
 }
 
-.contenedor-venta:not(:first-child){
+.contenedor-venta:not(:first-child) {
     margin-top: 15px;
 }
-.contenedor-venta .item{
+
+.contenedor-venta .item {
     display: flex;
     padding: 10px;
     width: 100%;
 }
 
-.contenedor-venta .item .nombre-item{
+.contenedor-venta .item .nombre-item {
     width: 50%;
 }
-.contenedor-venta .item img{
+
+.contenedor-venta .item img {
     width: 80px;
     margin-right: 10px;
     height: 80px;
 }
-.contenedor-venta .item-detalles{
+
+.contenedor-venta .item-detalles {
     margin: 0 10px;
     width: 22%;
 }
@@ -84,7 +92,7 @@ body{
 
 
 /*carrito compras */
-.carrito{
+.carrito {
     border: 1px solid #666;
     width: 20%;
     margin-top: 30px;
@@ -96,20 +104,35 @@ body{
     transition: .3s;
 
 }
-.carrito .header-carrito{
+
+.carrito .header-carrito {
     background-color: #000000;
     color: #fff;
     text-align: center;
     padding: 30px 0;
 }
-.carrito .carrito-item{
+
+.carrito .carrito-item {
     display: flex;
     align-items: center;
     position: relative;
     border-bottom: 1px solid #666;
-    padding: 20px;
+    padding: 2px;
 }
 
-.carrito .carrito-item img{
+.carrito .carrito-item img {
     width: 60px;
+}
+
+.header-carrito h2 {
+    margin-bottom: 15px;
+}
+
+.header-carrito a {
+    background: #1af8da;
+    text-decoration: none;
+    color: #666;
+    margin: 10px;
+    width: 90px;
+
 }
