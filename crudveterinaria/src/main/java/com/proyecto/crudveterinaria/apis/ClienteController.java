@@ -15,37 +15,37 @@ public class ClienteController {
     IClienteServicios _clienteServicios;
 
     @Autowired
-    public ClienteController(IClienteServicios clienteServicios){
+    public ClienteController(IClienteServicios clienteServicios) {
         this._clienteServicios = clienteServicios;
     }
 
     @CrossOrigin("*")
     @GetMapping("/listadoClient")
-    public List<Cliente> listaDeClientes(){
+    public List<Cliente> listaDeClientes() {
         return _clienteServicios.ListadoCliente();
     }
 
     @CrossOrigin("*")
     @GetMapping("/buscarClient/{id}")
-    public Cliente busquedaDeClientes(@PathVariable int id){
+    public Cliente busquedaDeClientes(@PathVariable int id) {
         return _clienteServicios.BuscarCliente(id);
     }
 
     @CrossOrigin("*")
     @PostMapping("/crearClient")
-    public Cliente crearCliente(@RequestBody Cliente entity){
+    public Cliente crearCliente(@RequestBody Cliente entity) {
         return _clienteServicios.CrearCliente(entity);
     }
 
     @CrossOrigin("*")
     @PutMapping("/modificarClient/{id}")
-    public Cliente modificarCliente(@PathVariable int id, @RequestBody Cliente entity){
-        return _clienteServicios.ModificarCliente(id,entity);
+    public Cliente modificarCliente(@PathVariable int id, @RequestBody Cliente entity) {
+        return _clienteServicios.ModificarCliente(id, entity);
     }
 
     @CrossOrigin("*")
     @DeleteMapping("/eliminarClient/{id}")
-    public void eliminarCliente(@PathVariable Integer id){
+    public void eliminarCliente(@PathVariable Integer id) {
         _clienteServicios.EliminarCliente(id);
     }
 

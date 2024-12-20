@@ -65,4 +65,11 @@ form button {
     padding: 10px 15px;
     cursor: pointer;
     font-size: 20px;
+    border-radius: 5px;
+}
+
+form button:hover {
+
+    background: linear-gradient(to right, #b51018, #bd0e51);
+
 }

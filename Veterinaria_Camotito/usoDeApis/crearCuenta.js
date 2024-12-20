@@ -12,13 +12,9 @@ let registrarCliente = async () => {
     let campos = {};
 
 
-    campos.nombres = document.getElementById("nombres").value;
-    campos.apellido = document.getElementById("apellido").value;
-    campos.dni = document.getElementById("dni").value;
+    campos.nombresCompleto = document.getElementById("nombresCompleto").value;
     campos.numero = document.getElementById("numero").value;
     campos.correo = document.getElementById("correo").value;
-    campos.direccion = document.getElementById("direccion").value;
-    campos.username = document.getElementById("username").value;
     campos.password = document.getElementById("password").value;
 
 

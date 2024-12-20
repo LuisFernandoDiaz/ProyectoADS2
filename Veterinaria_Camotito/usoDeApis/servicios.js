@@ -1,5 +1,12 @@
 
 const guardarBtn = document.getElementById('guardarBtn')
+const regresarBtn = document.getElementById('regresarBtn')
+
+
+regresarBtn.addEventListener('click', (e) => {
+    e.preventDefault()
+    redireccion();
+})
 
 
 guardarBtn.addEventListener('click', (e) => {

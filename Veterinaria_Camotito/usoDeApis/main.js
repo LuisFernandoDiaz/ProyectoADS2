@@ -1,4 +1,4 @@
-const username = document.getElementById('username')
+const correo = document.getElementById('correo')
 const password = document.getElementById('password')
 const button = document.getElementById('button')
 
@@ -24,12 +24,11 @@ let listarAtencion = async () => {
 
     for (let hability of listado) {
 
-        if ((username.value, password.value) === (`${hability.username}`, `${hability.password}`)) {
+        if ((correo.value, password.value) === (`${hability.correo}`, `${hability.password}`)) {
 
             redireccion();
 
         }
-
     }
 
 
